@@ -17,11 +17,6 @@ button {
     border: none;
 }
 
-img {
-    width: 200px;
-    margin-top: 20px;
-}
-
 #reset {
     background-color: red;
 }

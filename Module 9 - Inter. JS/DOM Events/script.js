@@ -48,15 +48,3 @@ function hideStuff() {
         x.style.display = "none";
     }
 }
-
-
-
-// button.onmouseover = button.onmouseout = acButton;
-
-// function acButton() {
-//     if (event.type == 'mouseover') {
-//         event.target.style.background = 'pink'
-//     } if (event.type == 'mouseout') {
-//         event.target.style.background = ''
-//     }
-// }
