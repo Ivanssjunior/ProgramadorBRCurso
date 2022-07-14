@@ -5,19 +5,23 @@
     <title>Dom Events</title>
     <link rel="stylesheet" href="/Module 9 - Inter. JS/DOM Events/style.css">
 </head>
-<body>
+<body onload="console.log('Webpage loading complete')">
+    <!-- onload function can be used to check the visitor browser type, and load in the proper version.
+        Also can be used when you need to finish the loading of a file for exemaple.  -->
     <h1>Dom Events Study</h1>
     <div id="content" class="justInCase">
         <h2 id="onClick">Click on me to print on Console</h2>
         <h2 id="changeColors">Click here to change the text color</h2>
         <h2 id="inputText">Waiting for changes</h2>
         <input type="text" id="textInput" placeholder="Type here" onchange="changeText()">
+        <br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Logo_CODE.svg/1280px-Logo_CODE.svg.png" > 
     </div>
     <br>
-    <button id="hide" onclick="hideStuff()">Hide</button>
-    <button id="reset" onclick="window.location.reload();">Reset</button>
-    
-
+    <div>
+        <button id="hide" onmouseover="onOver()" onclick="hideStuff()">Hide</button>
+        <button onclick="window.location.reload();">Reset</button>
+    </div>        
 
 <script src="/Module 9 - Inter. JS/DOM Events/script.js"></script>
 </body>
