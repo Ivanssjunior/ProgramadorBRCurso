@@ -18,10 +18,11 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Logo_CODE.svg/1280px-Logo_CODE.svg.png" > 
     </div>
     <br>
-    <div>
-        <button id="hide" onmouseover="onOver()" onclick="hideStuff()">Hide</button>
-        <button onclick="window.location.reload();">Reset</button>
-    </div>        
+    <button class="pgButtons" id="hide" onmouseover="onOver(this)" onmouseout="onOut(this)" onclick="hideStuff()" >Hide</button>
+    <button class="pgButtons" onmouseover="onOver(this)" onmouseout="onOut(this)" onclick="window.location.reload()">Reset</button>
+
+    <!-- <div class="pgButtons" id="hide" onmouseover="onOver()" onclick="hideStuff()">Hide</div>
+    <div class="pgButtons" onclick="window.location.reload();">Reset</div>      -->
 
 <script src="/Module 9 - Inter. JS/DOM Events/script.js"></script>
 </body>

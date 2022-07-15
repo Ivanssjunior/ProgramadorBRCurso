@@ -49,7 +49,13 @@ function hideStuff() {
     }
 }
 
+function onOver(element) {
+    element.style.backgroundColor = "pink"
+}
 
+function onOut(element) {
+    element.style.backgroundColor = "blue"
+}
 
 // button.onmouseover = button.onmouseout = acButton;
 
