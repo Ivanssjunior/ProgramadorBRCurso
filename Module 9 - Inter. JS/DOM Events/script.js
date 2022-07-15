@@ -48,3 +48,10 @@ function hideStuff() {
         x.style.display = "none";
     }
 }
+function onOver(element) {
+    element.style.backgroundColor = "pink"
+}
+
+function onOut(element) {
+    element.style.backgroundColor = "blue"
+}
