@@ -49,9 +49,41 @@ function hideStuff() {
     }
 }
 function onOver(element) {
-    element.style.backgroundColor = "pink"
+    element.style.backgroundColor = "red"
 }
 
 function onOut(element) {
     element.style.backgroundColor = "blue"
 }
+
+let t = document.getElementById("tittle")
+
+t.addEventListener("mouseover", changeTittle)
+t.addEventListener("mouseout", mouseout)
+
+function changeTittle() {
+    this.innerHTML = "Now the pointer is over the Tittle!";
+}
+
+function mouseout() {
+    this.innerHTML = "Javascript is Amazing"
+}
+
+let t1 = document.getElementById("t1");
+let t2 = document.getElementById("t2");
+
+t1.onclick = makeChanges;
+t2.onclick = showText;
+
+function makeChanges() {
+    this.innerHTML = "Click above me!";
+}
+
+function showText() {
+    this.innerText = "This is a examples";
+}
+
+const mustsee = document.getElementById("t2");
+mustsee.style.visibility = "hidden"; 
+mustsee.style.visibility = "visible";
+const visible = element.style.visibility;
