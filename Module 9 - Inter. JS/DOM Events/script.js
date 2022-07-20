@@ -80,10 +80,7 @@ function makeChanges() {
 }
 
 function showText() {
-    this.innerText = "This is a examples";
+    this.innerHTML = this.innerHTML.toUpperCase();
 }
 
-const mustsee = document.getElementById("t2");
-mustsee.style.visibility = "hidden"; 
-mustsee.style.visibility = "visible";
-const visible = element.style.visibility;
+
