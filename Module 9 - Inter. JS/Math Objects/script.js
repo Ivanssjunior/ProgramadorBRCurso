@@ -18,20 +18,6 @@ button.onclick = function () {
     var g = document.getElementById("mFirst").value
     var a = document.getElementById("mSecond").value
     var x = g - a;
-    document.getElementById("demo").innerHTML = x;
+    document.getElementById("mDemo").innerHTML = x;
 
 }
-
-// function Calculate() {
-//     var firstNumber = document.getElementById("mFirst").value;
-//     var secondNumber = document.getElementById("mSecond").value;
-// }
-
-
-
-
-// function showNumber() {
-//     var input = document.getElementById("nInput")
-//     var p = document.getElementById("nRandom")
-//     p.innerHTML = input.value;
-// }
